@@ -1,6 +1,6 @@
 # Anomaly Detection for Zero-Day IoT Attacks
 
-This repository contains training scripts and terminal logs from:
+This repository contains training scripts and experimental logs from the research paper:
 > **"Performance–Efficiency Trade-offs in Anomaly Detection Architectures for Zero-Day IoT Attack Detection: A Systematic Benchmark on CICIoT2023"**  
 > *Accepted to Workshop on AI for Cyber Threat Intelligence (WAITI) 2025*  
 > Raymond Lee & Yunpeng Zhang
@@ -47,7 +47,7 @@ Standard Autoencoder offers the best performance-efficiency trade-off for resour
 
 ## Dataset
 
-The CICIoT2023 dataset is available at: 
+The CICIoT2023 dataset is available at: https://www.unb.ca/cic/datasets/iotdataset-2023.html
 
 ## Citation
 
