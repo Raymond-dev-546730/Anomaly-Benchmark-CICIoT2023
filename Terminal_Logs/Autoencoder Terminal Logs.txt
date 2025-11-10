@@ -1,0 +1,339 @@
+Configuring hardware...
+Hardware Configuration:
+Device: cpu
+CPU Threads: 16
+RAM Memory Limit: 20 GB
+Deterministic: True
+Extracting Benign Data...
+Total partitions to process: 63
+Partition 1/63 - Memory: 502.6 MB
+Partition 11/63 - Memory: 1164.1 MB
+Partition 21/63 - Memory: 1188.8 MB
+Partition 31/63 - Memory: 1179.2 MB
+Partition 41/63 - Memory: 1150.0 MB
+Partition 51/63 - Memory: 1192.4 MB
+Partition 61/63 - Memory: 1666.6 MB
+Collected 1,098,126 total benign samples
+
+SEED: 1
+Using device: cpu
+Feature dimensions: 39
+Fitting scaler and normalizing data...
+Training autoencoder (seed 1)...
+Epoch  1/50 | Train Loss: 0.146106 | Val Loss: 0.026447 | Time: 3.8s
+Epoch  2/50 | Train Loss: 0.077465 | Val Loss: 0.018019 | Time: 3.7s
+Epoch  3/50 | Train Loss: 0.069166 | Val Loss: 0.015701 | Time: 3.7s
+Epoch  4/50 | Train Loss: 0.064017 | Val Loss: 0.014081 | Time: 3.7s
+Epoch  5/50 | Train Loss: 0.061372 | Val Loss: 0.013649 | Time: 3.7s
+Epoch  6/50 | Train Loss: 0.059482 | Val Loss: 0.011863 | Time: 3.7s
+Epoch  7/50 | Train Loss: 0.058072 | Val Loss: 0.010693 | Time: 3.7s
+Epoch  8/50 | Train Loss: 0.057196 | Val Loss: 0.010364 | Time: 3.7s
+Epoch  9/50 | Train Loss: 0.056230 | Val Loss: 0.010252 | Time: 3.7s
+Epoch 10/50 | Train Loss: 0.054866 | Val Loss: 0.009158 | Time: 3.7s
+Epoch 11/50 | Train Loss: 0.054840 | Val Loss: 0.009279 | Time: 3.7s
+Epoch 12/50 | Train Loss: 0.054347 | Val Loss: 0.008523 | Time: 3.7s
+Epoch 13/50 | Train Loss: 0.053486 | Val Loss: 0.009438 | Time: 3.7s
+Epoch 14/50 | Train Loss: 0.053756 | Val Loss: 0.010479 | Time: 3.7s
+Epoch 15/50 | Train Loss: 0.053625 | Val Loss: 0.008876 | Time: 3.7s
+Epoch 16/50 | Train Loss: 0.053241 | Val Loss: 0.009850 | Time: 3.7s
+Epoch 17/50 | Train Loss: 0.052066 | Val Loss: 0.009954 | Time: 3.7s
+Epoch 18/50 | Train Loss: 0.052329 | Val Loss: 0.010199 | Time: 3.7s
+Epoch 19/50 | Train Loss: 0.052078 | Val Loss: 0.010078 | Time: 3.7s
+Epoch 20/50 | Train Loss: 0.052808 | Val Loss: 0.010675 | Time: 3.7s
+Epoch 21/50 | Train Loss: 0.052425 | Val Loss: 0.010532 | Time: 3.7s
+Epoch 22/50 | Train Loss: 0.051425 | Val Loss: 0.009527 | Time: 3.8s
+Early stopping at epoch 22
+Training completed in 82.1s
+Model loading time: 0.1613 ± 0.0501ms
+Model size: 36.3 KB
+Peak memory usage: 2605.91 MB
+Threshold (99th percentile of validation): 0.086955
+Evaluating model on full dataset...
+Evaluating partition 1/63 - Memory: 2613.8 MB
+Evaluating partition 16/63 - Memory: 3723.0 MB
+Evaluating partition 31/63 - Memory: 4632.9 MB
+Evaluating partition 46/63 - Memory: 5319.0 MB
+Evaluating partition 61/63 - Memory: 6357.3 MB
+Evaluation completed in 82.6s
+Total samples evaluated: 46,775,660
+Benign samples: 1,098,126
+Inference time per sample: 0.002 ms
+Calculating metrics...
+Threshold (from validation set): 0.086955
+Precision: 0.9998
+Recall: 0.9776
+FINAL METRICS FOR SEED 1:
+ROC-AUC: 0.9947
+AUPRC: 0.9999
+F1 Score: 0.9886
+Training Time: 82.1s
+Model Loading Time: 0.1613 ± 0.0501ms
+Inference Time: 0.002 ms/sample
+Peak Memory: 2605.91 MB
+
+SEED: 2
+Using device: cpu
+Feature dimensions: 39
+Fitting scaler and normalizing data...
+Training autoencoder (seed 2)...
+Epoch  1/50 | Train Loss: 0.151043 | Val Loss: 0.027079 | Time: 3.0s
+Epoch  2/50 | Train Loss: 0.076805 | Val Loss: 0.018188 | Time: 3.0s
+Epoch  3/50 | Train Loss: 0.067554 | Val Loss: 0.015193 | Time: 3.0s
+Epoch  4/50 | Train Loss: 0.063577 | Val Loss: 0.013999 | Time: 3.0s
+Epoch  5/50 | Train Loss: 0.061040 | Val Loss: 0.013279 | Time: 3.0s
+Epoch  6/50 | Train Loss: 0.058576 | Val Loss: 0.011090 | Time: 3.0s
+Epoch  7/50 | Train Loss: 0.057648 | Val Loss: 0.010259 | Time: 3.0s
+Epoch  8/50 | Train Loss: 0.056150 | Val Loss: 0.009945 | Time: 3.1s
+Epoch  9/50 | Train Loss: 0.055206 | Val Loss: 0.011122 | Time: 3.1s
+Epoch 10/50 | Train Loss: 0.054840 | Val Loss: 0.010543 | Time: 3.1s
+Epoch 11/50 | Train Loss: 0.054130 | Val Loss: 0.010543 | Time: 3.1s
+Epoch 12/50 | Train Loss: 0.053655 | Val Loss: 0.009578 | Time: 3.1s
+Epoch 13/50 | Train Loss: 0.053073 | Val Loss: 0.009415 | Time: 3.1s
+Epoch 14/50 | Train Loss: 0.052913 | Val Loss: 0.009384 | Time: 3.1s
+Epoch 15/50 | Train Loss: 0.052893 | Val Loss: 0.009793 | Time: 3.1s
+Epoch 16/50 | Train Loss: 0.052298 | Val Loss: 0.010688 | Time: 3.2s
+Epoch 17/50 | Train Loss: 0.051727 | Val Loss: 0.010868 | Time: 3.1s
+Epoch 18/50 | Train Loss: 0.052501 | Val Loss: 0.010070 | Time: 3.1s
+Epoch 19/50 | Train Loss: 0.051176 | Val Loss: 0.011312 | Time: 3.2s
+Epoch 20/50 | Train Loss: 0.051715 | Val Loss: 0.010453 | Time: 3.3s
+Epoch 21/50 | Train Loss: 0.051800 | Val Loss: 0.009568 | Time: 3.2s
+Epoch 22/50 | Train Loss: 0.051431 | Val Loss: 0.011122 | Time: 3.2s
+Epoch 23/50 | Train Loss: 0.051154 | Val Loss: 0.009214 | Time: 3.1s
+Epoch 24/50 | Train Loss: 0.051616 | Val Loss: 0.011397 | Time: 3.1s
+Epoch 25/50 | Train Loss: 0.051443 | Val Loss: 0.009932 | Time: 3.1s
+Epoch 26/50 | Train Loss: 0.050493 | Val Loss: 0.010418 | Time: 3.1s
+Epoch 27/50 | Train Loss: 0.050755 | Val Loss: 0.010250 | Time: 3.1s
+Epoch 28/50 | Train Loss: 0.051175 | Val Loss: 0.010454 | Time: 3.1s
+Epoch 29/50 | Train Loss: 0.051050 | Val Loss: 0.010585 | Time: 3.1s
+Epoch 30/50 | Train Loss: 0.050593 | Val Loss: 0.009908 | Time: 3.1s
+Epoch 31/50 | Train Loss: 0.050194 | Val Loss: 0.011640 | Time: 3.1s
+Epoch 32/50 | Train Loss: 0.049867 | Val Loss: 0.010212 | Time: 3.2s
+Epoch 33/50 | Train Loss: 0.050749 | Val Loss: 0.011367 | Time: 3.1s
+Early stopping at epoch 33
+Training completed in 102.4s
+Model loading time: 0.1514 ± 0.0296ms
+Model size: 36.3 KB
+Peak memory usage: 2598.20 MB
+Threshold (99th percentile of validation): 0.106649
+Evaluating model on full dataset...
+Evaluating partition 1/63 - Memory: 2593.8 MB
+Evaluating partition 16/63 - Memory: 3750.8 MB
+Evaluating partition 31/63 - Memory: 4650.6 MB
+Evaluating partition 46/63 - Memory: 5411.0 MB
+Evaluating partition 61/63 - Memory: 6382.2 MB
+Evaluation completed in 81.5s
+Total samples evaluated: 46,775,660
+Benign samples: 1,098,126
+Inference time per sample: 0.002 ms
+Calculating metrics...
+Threshold (from validation set): 0.106649
+Precision: 0.9998
+Recall: 0.9771
+FINAL METRICS FOR SEED 2:
+ROC-AUC: 0.9939
+AUPRC: 0.9999
+F1 Score: 0.9883
+Training Time: 102.4s
+Model Loading Time: 0.1514 ± 0.0296ms
+Inference Time: 0.002 ms/sample
+Peak Memory: 2598.20 MB
+
+SEED: 3
+Using device: cpu
+Feature dimensions: 39
+Fitting scaler and normalizing data...
+Training autoencoder (seed 3)...
+Epoch  1/50 | Train Loss: 0.147235 | Val Loss: 0.029016 | Time: 3.7s
+Epoch  2/50 | Train Loss: 0.078360 | Val Loss: 0.018570 | Time: 3.7s
+Epoch  3/50 | Train Loss: 0.067844 | Val Loss: 0.015597 | Time: 3.7s
+Epoch  4/50 | Train Loss: 0.063482 | Val Loss: 0.013402 | Time: 3.7s
+Epoch  5/50 | Train Loss: 0.061016 | Val Loss: 0.012588 | Time: 3.7s
+Epoch  6/50 | Train Loss: 0.058799 | Val Loss: 0.010616 | Time: 3.7s
+Epoch  7/50 | Train Loss: 0.057604 | Val Loss: 0.010459 | Time: 3.7s
+Epoch  8/50 | Train Loss: 0.055691 | Val Loss: 0.010072 | Time: 3.7s
+Epoch  9/50 | Train Loss: 0.055668 | Val Loss: 0.009206 | Time: 3.7s
+Epoch 10/50 | Train Loss: 0.055299 | Val Loss: 0.008574 | Time: 3.7s
+Epoch 11/50 | Train Loss: 0.053962 | Val Loss: 0.009652 | Time: 3.7s
+Epoch 12/50 | Train Loss: 0.054068 | Val Loss: 0.009925 | Time: 3.7s
+Epoch 13/50 | Train Loss: 0.053708 | Val Loss: 0.008623 | Time: 3.7s
+Epoch 14/50 | Train Loss: 0.053046 | Val Loss: 0.009086 | Time: 3.7s
+Epoch 15/50 | Train Loss: 0.053092 | Val Loss: 0.009186 | Time: 3.7s
+Epoch 16/50 | Train Loss: 0.052962 | Val Loss: 0.009391 | Time: 3.7s
+Epoch 17/50 | Train Loss: 0.052712 | Val Loss: 0.008780 | Time: 3.7s
+Epoch 18/50 | Train Loss: 0.052987 | Val Loss: 0.009183 | Time: 3.7s
+Epoch 19/50 | Train Loss: 0.052664 | Val Loss: 0.008786 | Time: 3.7s
+Epoch 20/50 | Train Loss: 0.052279 | Val Loss: 0.009149 | Time: 3.7s
+Early stopping at epoch 20
+Training completed in 73.6s
+Model loading time: 0.1610 ± 0.0349ms
+Model size: 36.3 KB
+Peak memory usage: 2668.52 MB
+Threshold (99th percentile of validation): 0.093345
+Evaluating model on full dataset...
+Evaluating partition 1/63 - Memory: 2664.1 MB
+Evaluating partition 16/63 - Memory: 3696.2 MB
+Evaluating partition 31/63 - Memory: 4618.7 MB
+Evaluating partition 46/63 - Memory: 5332.0 MB
+Evaluating partition 61/63 - Memory: 6358.9 MB
+Evaluation completed in 81.4s
+Total samples evaluated: 46,775,660
+Benign samples: 1,098,126
+Inference time per sample: 0.002 ms
+Calculating metrics...
+Threshold (from validation set): 0.093345
+Precision: 0.9998
+Recall: 0.9777
+FINAL METRICS FOR SEED 3:
+ROC-AUC: 0.9945
+AUPRC: 0.9999
+F1 Score: 0.9886
+Training Time: 73.6s
+Model Loading Time: 0.1610 ± 0.0349ms
+Inference Time: 0.002 ms/sample
+Peak Memory: 2668.52 MB
+
+SEED: 4
+Using device: cpu
+Feature dimensions: 39
+Fitting scaler and normalizing data...
+Training autoencoder (seed 4)...
+Epoch  1/50 | Train Loss: 0.146216 | Val Loss: 0.025508 | Time: 3.7s
+Epoch  2/50 | Train Loss: 0.074940 | Val Loss: 0.020066 | Time: 3.7s
+Epoch  3/50 | Train Loss: 0.067325 | Val Loss: 0.016162 | Time: 3.7s
+Epoch  4/50 | Train Loss: 0.063911 | Val Loss: 0.015771 | Time: 3.7s
+Epoch  5/50 | Train Loss: 0.060931 | Val Loss: 0.013778 | Time: 3.7s
+Epoch  6/50 | Train Loss: 0.059587 | Val Loss: 0.012203 | Time: 3.7s
+Epoch  7/50 | Train Loss: 0.057177 | Val Loss: 0.012626 | Time: 3.7s
+Epoch  8/50 | Train Loss: 0.056546 | Val Loss: 0.011176 | Time: 3.7s
+Epoch  9/50 | Train Loss: 0.056466 | Val Loss: 0.012196 | Time: 3.7s
+Epoch 10/50 | Train Loss: 0.054622 | Val Loss: 0.010945 | Time: 3.7s
+Epoch 11/50 | Train Loss: 0.053966 | Val Loss: 0.012088 | Time: 3.7s
+Epoch 12/50 | Train Loss: 0.054844 | Val Loss: 0.013266 | Time: 3.7s
+Epoch 13/50 | Train Loss: 0.052490 | Val Loss: 0.012874 | Time: 3.7s
+Epoch 14/50 | Train Loss: 0.053429 | Val Loss: 0.012160 | Time: 3.7s
+Epoch 15/50 | Train Loss: 0.052524 | Val Loss: 0.010340 | Time: 3.7s
+Epoch 16/50 | Train Loss: 0.052323 | Val Loss: 0.012868 | Time: 3.7s
+Epoch 17/50 | Train Loss: 0.052371 | Val Loss: 0.011142 | Time: 3.7s
+Epoch 18/50 | Train Loss: 0.052355 | Val Loss: 0.012455 | Time: 3.7s
+Epoch 19/50 | Train Loss: 0.051457 | Val Loss: 0.014662 | Time: 3.8s
+Epoch 20/50 | Train Loss: 0.052626 | Val Loss: 0.012925 | Time: 3.6s
+Epoch 21/50 | Train Loss: 0.051990 | Val Loss: 0.012574 | Time: 3.3s
+Epoch 22/50 | Train Loss: 0.051193 | Val Loss: 0.011417 | Time: 3.3s
+Epoch 23/50 | Train Loss: 0.050621 | Val Loss: 0.012892 | Time: 3.1s
+Epoch 24/50 | Train Loss: 0.051203 | Val Loss: 0.012104 | Time: 3.1s
+Epoch 25/50 | Train Loss: 0.051018 | Val Loss: 0.013103 | Time: 3.1s
+Early stopping at epoch 25
+Training completed in 89.8s
+Model loading time: 0.1605 ± 0.0394ms
+Model size: 36.3 KB
+Peak memory usage: 2636.92 MB
+Threshold (99th percentile of validation): 0.101290
+Evaluating model on full dataset...
+Evaluating partition 1/63 - Memory: 2631.4 MB
+Evaluating partition 16/63 - Memory: 3752.3 MB
+Evaluating partition 31/63 - Memory: 4659.2 MB
+Evaluating partition 46/63 - Memory: 5378.4 MB
+Evaluating partition 61/63 - Memory: 6339.6 MB
+Evaluation completed in 83.3s
+Total samples evaluated: 46,775,660
+Benign samples: 1,098,126
+Inference time per sample: 0.002 ms
+Calculating metrics...
+Threshold (from validation set): 0.101290
+Precision: 0.9998
+Recall: 0.9777
+FINAL METRICS FOR SEED 4:
+ROC-AUC: 0.9943
+AUPRC: 0.9999
+F1 Score: 0.9886
+Training Time: 89.8s
+Model Loading Time: 0.1605 ± 0.0394ms
+Inference Time: 0.002 ms/sample
+Peak Memory: 2636.92 MB
+
+SEED: 5
+Using device: cpu
+Feature dimensions: 39
+Fitting scaler and normalizing data...
+Training autoencoder (seed 5)...
+Epoch  1/50 | Train Loss: 0.149424 | Val Loss: 0.028208 | Time: 3.0s
+Epoch  2/50 | Train Loss: 0.076715 | Val Loss: 0.018449 | Time: 3.0s
+Epoch  3/50 | Train Loss: 0.068418 | Val Loss: 0.014881 | Time: 3.0s
+Epoch  4/50 | Train Loss: 0.063668 | Val Loss: 0.013429 | Time: 3.0s
+Epoch  5/50 | Train Loss: 0.060849 | Val Loss: 0.011836 | Time: 3.0s
+Epoch  6/50 | Train Loss: 0.058669 | Val Loss: 0.011986 | Time: 3.0s
+Epoch  7/50 | Train Loss: 0.057766 | Val Loss: 0.010691 | Time: 3.0s
+Epoch  8/50 | Train Loss: 0.056823 | Val Loss: 0.010502 | Time: 3.0s
+Epoch  9/50 | Train Loss: 0.055507 | Val Loss: 0.009392 | Time: 3.0s
+Epoch 10/50 | Train Loss: 0.055031 | Val Loss: 0.009901 | Time: 3.0s
+Epoch 11/50 | Train Loss: 0.055181 | Val Loss: 0.010127 | Time: 3.0s
+Epoch 12/50 | Train Loss: 0.054575 | Val Loss: 0.010263 | Time: 3.0s
+Epoch 13/50 | Train Loss: 0.054100 | Val Loss: 0.009688 | Time: 3.0s
+Epoch 14/50 | Train Loss: 0.053688 | Val Loss: 0.008615 | Time: 3.0s
+Epoch 15/50 | Train Loss: 0.053768 | Val Loss: 0.008769 | Time: 3.0s
+Epoch 16/50 | Train Loss: 0.053376 | Val Loss: 0.008770 | Time: 3.0s
+Epoch 17/50 | Train Loss: 0.053193 | Val Loss: 0.009109 | Time: 3.0s
+Epoch 18/50 | Train Loss: 0.053299 | Val Loss: 0.008796 | Time: 3.0s
+Epoch 19/50 | Train Loss: 0.052895 | Val Loss: 0.008603 | Time: 3.0s
+Epoch 20/50 | Train Loss: 0.053256 | Val Loss: 0.009104 | Time: 3.0s
+Epoch 21/50 | Train Loss: 0.052751 | Val Loss: 0.009258 | Time: 3.0s
+Epoch 22/50 | Train Loss: 0.052762 | Val Loss: 0.010747 | Time: 3.0s
+Epoch 23/50 | Train Loss: 0.052393 | Val Loss: 0.010054 | Time: 3.0s
+Epoch 24/50 | Train Loss: 0.051782 | Val Loss: 0.010634 | Time: 3.0s
+Epoch 25/50 | Train Loss: 0.052103 | Val Loss: 0.009058 | Time: 3.0s
+Epoch 26/50 | Train Loss: 0.051322 | Val Loss: 0.009690 | Time: 3.0s
+Epoch 27/50 | Train Loss: 0.051420 | Val Loss: 0.009368 | Time: 3.0s
+Epoch 28/50 | Train Loss: 0.051389 | Val Loss: 0.009889 | Time: 3.0s
+Epoch 29/50 | Train Loss: 0.050854 | Val Loss: 0.009977 | Time: 3.0s
+Early stopping at epoch 29
+Training completed in 86.9s
+Model loading time: 0.1604 ± 0.0371ms
+Model size: 36.3 KB
+Peak memory usage: 2716.88 MB
+Threshold (99th percentile of validation): 0.098848
+Evaluating model on full dataset...
+Evaluating partition 1/63 - Memory: 2712.5 MB
+Evaluating partition 16/63 - Memory: 3750.9 MB
+Evaluating partition 31/63 - Memory: 4677.1 MB
+Evaluating partition 46/63 - Memory: 5455.5 MB
+Evaluating partition 61/63 - Memory: 6390.1 MB
+Evaluation completed in 82.2s
+Total samples evaluated: 46,775,660
+Benign samples: 1,098,126
+Inference time per sample: 0.002 ms
+Calculating metrics...
+Threshold (from validation set): 0.098848
+Precision: 0.9998
+Recall: 0.9774
+FINAL METRICS FOR SEED 5:
+ROC-AUC: 0.9946
+AUPRC: 0.9999
+F1 Score: 0.9885
+Training Time: 86.9s
+Model Loading Time: 0.1604 ± 0.0371ms
+Inference Time: 0.002 ms/sample
+Peak Memory: 2716.88 MB
+INDIVIDUAL SEED RESULTS:
+Seed 1: ROC-AUC=0.9947, AUPRC=0.9999, F1=0.9886
+Seed 2: ROC-AUC=0.9939, AUPRC=0.9999, F1=0.9883
+Seed 3: ROC-AUC=0.9945, AUPRC=0.9999, F1=0.9886
+Seed 4: ROC-AUC=0.9943, AUPRC=0.9999, F1=0.9886
+Seed 5: ROC-AUC=0.9946, AUPRC=0.9999, F1=0.9885
+
+TRAINING FINISHED:
+Total time: 967.5s (16.1 minutes)
+
+FINAL BENCHMARK RESULTS:
+Performance Metrics:
+ROC-AUC: 0.9944 ± 0.0003
+AUPRC: 0.9999 ± 0.0000
+F1 Score: 0.9885 ± 0.0001
+Precision: 0.9998 ± 0.0000
+Recall: 0.9775 ± 0.0002
+
+Efficiency Metrics:
+Training Time: 86.9 ± 9.5s
+Model Loading Time: 0.1589 ± 0.0038ms
+Inference Time: 0.002 ± 0.000 ms/sample
+Peak Memory: 2645.29 ± 43.60 MB
+Model Size: 36.3 KB

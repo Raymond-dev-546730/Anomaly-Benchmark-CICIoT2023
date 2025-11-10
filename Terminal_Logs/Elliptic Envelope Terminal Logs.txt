@@ -1,0 +1,210 @@
+Configuring hardware...
+Hardware Configuration:
+Device: cpu
+CPU Threads: 16
+RAM Memory Limit: 20 GB
+Deterministic: True
+Extracting Benign Data...
+Total partitions to process: 63
+Partition 1/63 - Memory: 205.5 MB
+Partition 11/63 - Memory: 867.0 MB
+Partition 21/63 - Memory: 891.4 MB
+Partition 31/63 - Memory: 881.7 MB
+Partition 41/63 - Memory: 852.5 MB
+Partition 51/63 - Memory: 894.9 MB
+Partition 61/63 - Memory: 1369.8 MB
+Collected 1,098,126 total benign samples
+
+SEED: 1
+Feature dimensions: 39
+Fitting scaler and normalizing data...
+Training Elliptic Envelope (seed 1)...
+/home/ubuntu-username/miniconda3/lib/python3.13/site-packages/sklearn/covariance/_robust_covariance.py:753: UserWarning: The covariance matrix associated to your dataset is not full rank
+  warnings.warn(
+Training completed in 47.5s
+Model loading time: 1.2384 ± 0.2665ms
+Model size: 8616.2 KB
+Peak memory usage: 3231.88 MB
+Threshold (99th percentile of validation): 13404.866988
+Evaluating model on full dataset...
+Evaluating partition 1/63 - Memory: 3231.7 MB
+Evaluating partition 16/63 - Memory: 4262.0 MB
+Evaluating partition 31/63 - Memory: 5172.9 MB
+Evaluating partition 46/63 - Memory: 5870.9 MB
+Evaluating partition 61/63 - Memory: 6893.4 MB
+Evaluation completed in 73.6s
+Total samples evaluated: 46,775,660
+Benign samples: 1,098,126
+Inference time per sample: 0.002 ms
+Calculating metrics...
+Threshold (from validation set): 13404.866988
+Precision: 0.9990
+Recall: 0.2329
+FINAL METRICS FOR SEED 1:
+ROC-AUC: 0.9094
+AUPRC: 0.9961
+F1 Score: 0.3778
+Training Time: 47.5s
+Model Loading Time: 1.2384 ± 0.2665ms
+Inference Time: 0.002 ms/sample
+Peak Memory: 3231.88 MB
+
+SEED: 2
+Feature dimensions: 39
+Fitting scaler and normalizing data...
+Training Elliptic Envelope (seed 2)...
+/home/ubuntu-username/miniconda3/lib/python3.13/site-packages/sklearn/covariance/_robust_covariance.py:753: UserWarning: The covariance matrix associated to your dataset is not full rank
+  warnings.warn(
+Training completed in 46.5s
+Model loading time: 1.1192 ± 0.0822ms
+Model size: 8616.2 KB
+Peak memory usage: 3241.01 MB
+Threshold (99th percentile of validation): 12081.746102
+Evaluating model on full dataset...
+Evaluating partition 1/63 - Memory: 3236.6 MB
+Evaluating partition 16/63 - Memory: 4258.9 MB
+Evaluating partition 31/63 - Memory: 5158.6 MB
+Evaluating partition 46/63 - Memory: 5750.3 MB
+Evaluating partition 61/63 - Memory: 6889.5 MB
+Evaluation completed in 70.9s
+Total samples evaluated: 46,775,660
+Benign samples: 1,098,126
+Inference time per sample: 0.002 ms
+Calculating metrics...
+Threshold (from validation set): 12081.746102
+Precision: 0.9994
+Recall: 0.3913
+FINAL METRICS FOR SEED 2:
+ROC-AUC: 0.9294
+AUPRC: 0.9976
+F1 Score: 0.5624
+Training Time: 46.5s
+Model Loading Time: 1.1192 ± 0.0822ms
+Inference Time: 0.002 ms/sample
+Peak Memory: 3241.01 MB
+
+SEED: 3
+Feature dimensions: 39
+Fitting scaler and normalizing data...
+Training Elliptic Envelope (seed 3)...
+/home/ubuntu-username/miniconda3/lib/python3.13/site-packages/sklearn/covariance/_robust_covariance.py:753: UserWarning: The covariance matrix associated to your dataset is not full rank
+  warnings.warn(
+Training completed in 46.0s
+Model loading time: 1.0234 ± 0.0301ms
+Model size: 8616.2 KB
+Peak memory usage: 3629.23 MB
+Threshold (99th percentile of validation): 5498.934958
+Evaluating model on full dataset...
+Evaluating partition 1/63 - Memory: 3624.8 MB
+Evaluating partition 16/63 - Memory: 4362.7 MB
+Evaluating partition 31/63 - Memory: 5285.3 MB
+Evaluating partition 46/63 - Memory: 6069.4 MB
+Evaluating partition 61/63 - Memory: 7240.0 MB
+Evaluation completed in 68.0s
+Total samples evaluated: 46,775,660
+Benign samples: 1,098,126
+Inference time per sample: 0.001 ms
+Calculating metrics...
+Threshold (from validation set): 5498.934958
+Precision: 0.9995
+Recall: 0.4954
+FINAL METRICS FOR SEED 3:
+ROC-AUC: 0.9520
+AUPRC: 0.9979
+F1 Score: 0.6625
+Training Time: 46.0s
+Model Loading Time: 1.0234 ± 0.0301ms
+Inference Time: 0.001 ms/sample
+Peak Memory: 3629.23 MB
+
+SEED: 4
+Feature dimensions: 39
+Fitting scaler and normalizing data...
+Training Elliptic Envelope (seed 4)...
+/home/ubuntu-username/miniconda3/lib/python3.13/site-packages/sklearn/covariance/_robust_covariance.py:753: UserWarning: The covariance matrix associated to your dataset is not full rank
+  warnings.warn(
+Training completed in 49.3s
+Model loading time: 1.0289 ± 0.0531ms
+Model size: 8616.2 KB
+Peak memory usage: 3594.45 MB
+Threshold (99th percentile of validation): 5696.710659
+Evaluating model on full dataset...
+Evaluating partition 1/63 - Memory: 3590.0 MB
+Evaluating partition 16/63 - Memory: 4287.9 MB
+Evaluating partition 31/63 - Memory: 5110.8 MB
+Evaluating partition 46/63 - Memory: 6050.4 MB
+Evaluating partition 61/63 - Memory: 7220.8 MB
+Evaluation completed in 71.0s
+Total samples evaluated: 46,775,660
+Benign samples: 1,098,126
+Inference time per sample: 0.002 ms
+Calculating metrics...
+Threshold (from validation set): 5696.710659
+Precision: 0.9997
+Recall: 0.7696
+FINAL METRICS FOR SEED 4:
+ROC-AUC: 0.9573
+AUPRC: 0.9988
+F1 Score: 0.8697
+Training Time: 49.3s
+Model Loading Time: 1.0289 ± 0.0531ms
+Inference Time: 0.002 ms/sample
+Peak Memory: 3594.45 MB
+
+SEED: 5
+Feature dimensions: 39
+Fitting scaler and normalizing data...
+Training Elliptic Envelope (seed 5)...
+/home/ubuntu-username/miniconda3/lib/python3.13/site-packages/sklearn/covariance/_robust_covariance.py:753: UserWarning: The covariance matrix associated to your dataset is not full rank
+  warnings.warn(
+Training completed in 46.0s
+Model loading time: 1.2084 ± 0.2599ms
+Model size: 8616.2 KB
+Peak memory usage: 3635.29 MB
+Threshold (99th percentile of validation): 20907.820748
+Evaluating model on full dataset...
+Evaluating partition 1/63 - Memory: 3630.9 MB
+Evaluating partition 16/63 - Memory: 4399.1 MB
+Evaluating partition 31/63 - Memory: 5292.5 MB
+Evaluating partition 46/63 - Memory: 6113.2 MB
+Evaluating partition 61/63 - Memory: 7216.8 MB
+Evaluation completed in 72.1s
+Total samples evaluated: 46,775,660
+Benign samples: 1,098,126
+Inference time per sample: 0.002 ms
+Calculating metrics...
+Threshold (from validation set): 20907.820748
+Precision: 0.9993
+Recall: 0.3374
+FINAL METRICS FOR SEED 5:
+ROC-AUC: 0.9198
+AUPRC: 0.9973
+F1 Score: 0.5045
+Training Time: 46.0s
+Model Loading Time: 1.2084 ± 0.2599ms
+Inference Time: 0.002 ms/sample
+Peak Memory: 3635.29 MB
+INDIVIDUAL SEED RESULTS:
+Seed 1: ROC-AUC=0.9094, AUPRC=0.9961, F1=0.3778
+Seed 2: ROC-AUC=0.9294, AUPRC=0.9976, F1=0.5624
+Seed 3: ROC-AUC=0.9520, AUPRC=0.9979, F1=0.6625
+Seed 4: ROC-AUC=0.9573, AUPRC=0.9988, F1=0.8697
+Seed 5: ROC-AUC=0.9198, AUPRC=0.9973, F1=0.5045
+
+TRAINING FINISHED:
+Total time: 734.1s (12.2 minutes)
+
+FINAL BENCHMARK RESULTS:
+Performance Metrics:
+ROC-AUC: 0.9336 ± 0.0184
+AUPRC: 0.9975 ± 0.0009
+F1 Score: 0.5954 ± 0.1652
+Precision: 0.9994 ± 0.0002
+Recall: 0.4453 ± 0.1829
+
+Efficiency Metrics:
+Training Time: 47.1 ± 1.2s
+Model Loading Time: 1.1237 ± 0.0888ms
+Inference Time: 0.002 ± 0.000 ms/sample
+Peak Memory: 3466.37 ± 188.27 MB
+Model Size: 8616.2 KB

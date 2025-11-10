@@ -1,0 +1,200 @@
+Configuring hardware...
+Hardware Configuration:
+Device: cpu
+CPU Threads: 16
+RAM Memory Limit: 20 GB
+Deterministic: True
+Extracting Benign Data...
+Total partitions to process: 63
+Partition 1/63 - Memory: 208.5 MB
+Partition 11/63 - Memory: 870.2 MB
+Partition 21/63 - Memory: 895.1 MB
+Partition 31/63 - Memory: 885.3 MB
+Partition 41/63 - Memory: 856.4 MB
+Partition 51/63 - Memory: 899.0 MB
+Partition 61/63 - Memory: 1373.5 MB
+Collected 1,098,126 total benign samples
+
+SEED: 1
+Feature dimensions: 39
+Fitting scaler and normalizing data...
+Training Isolation Forest (seed 1)...
+Training completed in 0.5s
+Model loading time: 1.7472 ± 0.1779ms
+Model size: 856.9 KB
+Peak memory usage: 2760.04 MB
+Threshold (99th percentile of validation): 0.056416
+Evaluating model on full dataset...
+Evaluating partition 1/63 - Memory: 2761.5 MB
+Evaluating partition 16/63 - Memory: 3906.7 MB
+Evaluating partition 31/63 - Memory: 4832.5 MB
+Evaluating partition 46/63 - Memory: 5528.1 MB
+Evaluating partition 61/63 - Memory: 6539.4 MB
+Evaluation completed in 106.0s
+Total samples evaluated: 46,775,660
+Benign samples: 1,098,126
+Inference time per sample: 0.002 ms
+Calculating metrics...
+Threshold (from validation set): 0.056416
+Precision: 0.9986
+Recall: 0.1772
+FINAL METRICS FOR SEED 1:
+ROC-AUC: 0.9250
+AUPRC: 0.9975
+F1 Score: 0.3010
+Training Time: 0.5s
+Model Loading Time: 1.7472 ± 0.1779ms
+Inference Time: 0.002 ms/sample
+Peak Memory: 2760.04 MB
+
+SEED: 2
+Feature dimensions: 39
+Fitting scaler and normalizing data...
+Training Isolation Forest (seed 2)...
+Training completed in 0.4s
+Model loading time: 1.7104 ± 0.0510ms
+Model size: 866.0 KB
+Peak memory usage: 2843.71 MB
+Threshold (99th percentile of validation): 0.046942
+Evaluating model on full dataset...
+Evaluating partition 1/63 - Memory: 2839.3 MB
+Evaluating partition 16/63 - Memory: 3916.7 MB
+Evaluating partition 31/63 - Memory: 4868.4 MB
+Evaluating partition 46/63 - Memory: 5612.0 MB
+Evaluating partition 61/63 - Memory: 6595.8 MB
+Evaluation completed in 104.6s
+Total samples evaluated: 46,775,660
+Benign samples: 1,098,126
+Inference time per sample: 0.002 ms
+Calculating metrics...
+Threshold (from validation set): 0.046942
+Precision: 0.9993
+Recall: 0.3562
+FINAL METRICS FOR SEED 2:
+ROC-AUC: 0.9373
+AUPRC: 0.9981
+F1 Score: 0.5252
+Training Time: 0.4s
+Model Loading Time: 1.7104 ± 0.0510ms
+Inference Time: 0.002 ms/sample
+Peak Memory: 2843.71 MB
+
+SEED: 3
+Feature dimensions: 39
+Fitting scaler and normalizing data...
+Training Isolation Forest (seed 3)...
+Training completed in 0.4s
+Model loading time: 2.0933 ± 0.2761ms
+Model size: 871.6 KB
+Peak memory usage: 2920.03 MB
+Threshold (99th percentile of validation): 0.052640
+Evaluating model on full dataset...
+Evaluating partition 1/63 - Memory: 2915.6 MB
+Evaluating partition 16/63 - Memory: 3902.7 MB
+Evaluating partition 31/63 - Memory: 4871.2 MB
+Evaluating partition 46/63 - Memory: 5595.6 MB
+Evaluating partition 61/63 - Memory: 6612.4 MB
+Evaluation completed in 109.2s
+Total samples evaluated: 46,775,660
+Benign samples: 1,098,126
+Inference time per sample: 0.002 ms
+Calculating metrics...
+Threshold (from validation set): 0.052640
+Precision: 0.9980
+Recall: 0.1196
+FINAL METRICS FOR SEED 3:
+ROC-AUC: 0.9137
+AUPRC: 0.9969
+F1 Score: 0.2136
+Training Time: 0.4s
+Model Loading Time: 2.0933 ± 0.2761ms
+Inference Time: 0.002 ms/sample
+Peak Memory: 2920.03 MB
+
+SEED: 4
+Feature dimensions: 39
+Fitting scaler and normalizing data...
+Training Isolation Forest (seed 4)...
+Training completed in 0.4s
+Model loading time: 1.6518 ± 0.0708ms
+Model size: 848.7 KB
+Peak memory usage: 2915.55 MB
+Threshold (99th percentile of validation): 0.051588
+Evaluating model on full dataset...
+Evaluating partition 1/63 - Memory: 2911.1 MB
+Evaluating partition 16/63 - Memory: 3947.5 MB
+Evaluating partition 31/63 - Memory: 4905.9 MB
+Evaluating partition 46/63 - Memory: 5605.3 MB
+Evaluating partition 61/63 - Memory: 6622.4 MB
+Evaluation completed in 102.0s
+Total samples evaluated: 46,775,660
+Benign samples: 1,098,126
+Inference time per sample: 0.002 ms
+Calculating metrics...
+Threshold (from validation set): 0.051588
+Precision: 0.9985
+Recall: 0.1623
+FINAL METRICS FOR SEED 4:
+ROC-AUC: 0.9276
+AUPRC: 0.9976
+F1 Score: 0.2792
+Training Time: 0.4s
+Model Loading Time: 1.6518 ± 0.0708ms
+Inference Time: 0.002 ms/sample
+Peak Memory: 2915.55 MB
+
+SEED: 5
+Feature dimensions: 39
+Fitting scaler and normalizing data...
+Training Isolation Forest (seed 5)...
+Training completed in 0.4s
+Model loading time: 1.6913 ± 0.0824ms
+Model size: 825.1 KB
+Peak memory usage: 2959.60 MB
+Threshold (99th percentile of validation): 0.041726
+Evaluating model on full dataset...
+Evaluating partition 1/63 - Memory: 2955.2 MB
+Evaluating partition 16/63 - Memory: 3938.4 MB
+Evaluating partition 31/63 - Memory: 4913.5 MB
+Evaluating partition 46/63 - Memory: 5673.9 MB
+Evaluating partition 61/63 - Memory: 6623.2 MB
+Evaluation completed in 106.1s
+Total samples evaluated: 46,775,660
+Benign samples: 1,098,126
+Inference time per sample: 0.002 ms
+Calculating metrics...
+Threshold (from validation set): 0.041726
+Precision: 0.9988
+Recall: 0.1979
+FINAL METRICS FOR SEED 5:
+ROC-AUC: 0.9442
+AUPRC: 0.9982
+F1 Score: 0.3304
+Training Time: 0.4s
+Model Loading Time: 1.6913 ± 0.0824ms
+Inference Time: 0.002 ms/sample
+Peak Memory: 2959.60 MB
+INDIVIDUAL SEED RESULTS:
+Seed 1: ROC-AUC=0.9250, AUPRC=0.9975, F1=0.3010
+Seed 2: ROC-AUC=0.9373, AUPRC=0.9981, F1=0.5252
+Seed 3: ROC-AUC=0.9137, AUPRC=0.9969, F1=0.2136
+Seed 4: ROC-AUC=0.9276, AUPRC=0.9976, F1=0.2792
+Seed 5: ROC-AUC=0.9442, AUPRC=0.9982, F1=0.3304
+
+TRAINING FINISHED:
+Total time: 643.5s (10.7 minutes)
+
+FINAL BENCHMARK RESULTS:
+Performance Metrics:
+ROC-AUC: 0.9296 ± 0.0105
+AUPRC: 0.9976 ± 0.0005
+F1 Score: 0.3299 ± 0.1050
+Precision: 0.9987 ± 0.0004
+Recall: 0.2026 ± 0.0810
+
+Efficiency Metrics:
+Training Time: 0.4 ± 0.0s
+Model Loading Time: 1.7788 ± 0.1602ms
+Inference Time: 0.002 ± 0.000 ms/sample
+Peak Memory: 2879.78 ± 70.58 MB
+Model Size: 856.9 KB

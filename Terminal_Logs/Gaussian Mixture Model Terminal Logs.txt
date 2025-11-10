@@ -1,0 +1,200 @@
+Configuring hardware...
+Hardware Configuration:
+Device: cpu
+CPU Threads: 16
+RAM Memory Limit: 20 GB
+Deterministic: True
+Extracting Benign Data...
+Total partitions to process: 63
+Partition 1/63 - Memory: 209.9 MB
+Partition 11/63 - Memory: 872.5 MB
+Partition 21/63 - Memory: 897.5 MB
+Partition 31/63 - Memory: 887.7 MB
+Partition 41/63 - Memory: 858.4 MB
+Partition 51/63 - Memory: 900.9 MB
+Partition 61/63 - Memory: 1374.7 MB
+Collected 1,098,126 total benign samples
+
+SEED: 1
+Feature dimensions: 39
+Fitting scaler and normalizing data...
+Training Gaussian Mixture Model (seed 1)...
+Training completed in 644.8s
+Model loading time: 0.1267 ± 0.0147ms
+Model size: 180.9 KB
+Peak memory usage: 2619.83 MB
+Threshold (99th percentile of validation): -0.643091
+Evaluating model on full dataset...
+Evaluating partition 1/63 - Memory: 2620.6 MB
+Evaluating partition 16/63 - Memory: 3813.2 MB
+Evaluating partition 31/63 - Memory: 4561.8 MB
+Evaluating partition 46/63 - Memory: 5508.8 MB
+Evaluating partition 61/63 - Memory: 6579.3 MB
+Evaluation completed in 144.9s
+Total samples evaluated: 46,775,660
+Benign samples: 1,098,126
+Inference time per sample: 0.003 ms
+Calculating metrics...
+Threshold (from validation set): -0.643091
+Precision: 0.9998
+Recall: 0.9774
+FINAL METRICS FOR SEED 1:
+ROC-AUC: 0.9938
+AUPRC: 0.9999
+F1 Score: 0.9884
+Training Time: 644.8s
+Model Loading Time: 0.1267 ± 0.0147ms
+Inference Time: 0.003 ms/sample
+Peak Memory: 2619.83 MB
+
+SEED: 2
+Feature dimensions: 39
+Fitting scaler and normalizing data...
+Training Gaussian Mixture Model (seed 2)...
+Training completed in 616.1s
+Model loading time: 0.0841 ± 0.0059ms
+Model size: 181.0 KB
+Peak memory usage: 2712.38 MB
+Threshold (99th percentile of validation): -24.758308
+Evaluating model on full dataset...
+Evaluating partition 1/63 - Memory: 2707.7 MB
+Evaluating partition 16/63 - Memory: 4074.3 MB
+Evaluating partition 31/63 - Memory: 4655.2 MB
+Evaluating partition 46/63 - Memory: 5702.2 MB
+Evaluating partition 61/63 - Memory: 6878.5 MB
+Evaluation completed in 131.7s
+Total samples evaluated: 46,775,660
+Benign samples: 1,098,126
+Inference time per sample: 0.003 ms
+Calculating metrics...
+Threshold (from validation set): -24.758308
+Precision: 0.9998
+Recall: 0.9779
+FINAL METRICS FOR SEED 2:
+ROC-AUC: 0.9941
+AUPRC: 0.9999
+F1 Score: 0.9887
+Training Time: 616.1s
+Model Loading Time: 0.0841 ± 0.0059ms
+Inference Time: 0.003 ms/sample
+Peak Memory: 2712.38 MB
+
+SEED: 3
+Feature dimensions: 39
+Fitting scaler and normalizing data...
+Training Gaussian Mixture Model (seed 3)...
+Training completed in 639.0s
+Model loading time: 0.0930 ± 0.0100ms
+Model size: 181.0 KB
+Peak memory usage: 2779.68 MB
+Threshold (99th percentile of validation): -7.756759
+Evaluating model on full dataset...
+Evaluating partition 1/63 - Memory: 2775.2 MB
+Evaluating partition 16/63 - Memory: 4054.1 MB
+Evaluating partition 31/63 - Memory: 4652.9 MB
+Evaluating partition 46/63 - Memory: 5681.4 MB
+Evaluating partition 61/63 - Memory: 6889.7 MB
+Evaluation completed in 137.2s
+Total samples evaluated: 46,775,660
+Benign samples: 1,098,126
+Inference time per sample: 0.003 ms
+Calculating metrics...
+Threshold (from validation set): -7.756759
+Precision: 0.9998
+Recall: 0.9776
+FINAL METRICS FOR SEED 3:
+ROC-AUC: 0.9939
+AUPRC: 0.9999
+F1 Score: 0.9886
+Training Time: 639.0s
+Model Loading Time: 0.0930 ± 0.0100ms
+Inference Time: 0.003 ms/sample
+Peak Memory: 2779.68 MB
+
+SEED: 4
+Feature dimensions: 39
+Fitting scaler and normalizing data...
+Training Gaussian Mixture Model (seed 4)...
+Training completed in 643.0s
+Model loading time: 0.0828 ± 0.0069ms
+Model size: 181.1 KB
+Peak memory usage: 2744.27 MB
+Threshold (99th percentile of validation): -13.976062
+Evaluating model on full dataset...
+Evaluating partition 1/63 - Memory: 2739.8 MB
+Evaluating partition 16/63 - Memory: 4069.9 MB
+Evaluating partition 31/63 - Memory: 4658.2 MB
+Evaluating partition 46/63 - Memory: 5662.1 MB
+Evaluating partition 61/63 - Memory: 6870.9 MB
+Evaluation completed in 132.8s
+Total samples evaluated: 46,775,660
+Benign samples: 1,098,126
+Inference time per sample: 0.003 ms
+Calculating metrics...
+Threshold (from validation set): -13.976062
+Precision: 0.9998
+Recall: 0.9777
+FINAL METRICS FOR SEED 4:
+ROC-AUC: 0.9939
+AUPRC: 0.9999
+F1 Score: 0.9886
+Training Time: 643.0s
+Model Loading Time: 0.0828 ± 0.0069ms
+Inference Time: 0.003 ms/sample
+Peak Memory: 2744.27 MB
+
+SEED: 5
+Feature dimensions: 39
+Fitting scaler and normalizing data...
+Training Gaussian Mixture Model (seed 5)...
+Training completed in 632.4s
+Model loading time: 0.0822 ± 0.0057ms
+Model size: 180.9 KB
+Peak memory usage: 2825.77 MB
+Threshold (99th percentile of validation): -0.613147
+Evaluating model on full dataset...
+Evaluating partition 1/63 - Memory: 2821.3 MB
+Evaluating partition 16/63 - Memory: 4055.3 MB
+Evaluating partition 31/63 - Memory: 4659.6 MB
+Evaluating partition 46/63 - Memory: 5725.4 MB
+Evaluating partition 61/63 - Memory: 6866.3 MB
+Evaluation completed in 130.9s
+Total samples evaluated: 46,775,660
+Benign samples: 1,098,126
+Inference time per sample: 0.003 ms
+Calculating metrics...
+Threshold (from validation set): -0.613147
+Precision: 0.9998
+Recall: 0.9774
+FINAL METRICS FOR SEED 5:
+ROC-AUC: 0.9938
+AUPRC: 0.9999
+F1 Score: 0.9884
+Training Time: 632.4s
+Model Loading Time: 0.0822 ± 0.0057ms
+Inference Time: 0.003 ms/sample
+Peak Memory: 2825.77 MB
+INDIVIDUAL SEED RESULTS:
+Seed 1: ROC-AUC=0.9938, AUPRC=0.9999, F1=0.9884
+Seed 2: ROC-AUC=0.9941, AUPRC=0.9999, F1=0.9887
+Seed 3: ROC-AUC=0.9939, AUPRC=0.9999, F1=0.9886
+Seed 4: ROC-AUC=0.9939, AUPRC=0.9999, F1=0.9886
+Seed 5: ROC-AUC=0.9938, AUPRC=0.9999, F1=0.9884
+
+TRAINING FINISHED:
+Total time: 3997.5s (66.6 minutes)
+
+FINAL BENCHMARK RESULTS:
+Performance Metrics:
+ROC-AUC: 0.9939 ± 0.0001
+AUPRC: 0.9999 ± 0.0000
+F1 Score: 0.9885 ± 0.0001
+Precision: 0.9998 ± 0.0000
+Recall: 0.9776 ± 0.0002
+
+Efficiency Metrics:
+Training Time: 635.0 ± 10.4s
+Model Loading Time: 0.0938 ± 0.0169ms
+Inference Time: 0.003 ± 0.000 ms/sample
+Peak Memory: 2736.39 ± 69.41 MB
+Model Size: 180.9 KB
