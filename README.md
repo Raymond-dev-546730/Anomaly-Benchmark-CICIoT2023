@@ -9,17 +9,8 @@ This repository contains training scripts and terminal logs from:
 
 We benchmark **10** anomaly detection models for zero-day IoT intrusion detection across tree-based, kernel, probabilistic, neural, and hybrid paradigms. All models are trained **exclusively on benign traffic** and evaluated on **33 unseen attack types** from the CICIoT2023 dataset containing **46.7 million network flows**. Experiments are conducted on resource-constrained hardware simulating IoT gateway environments, measuring both detection performance and computational efficiency to identify practical deployment trade-offs.
 
-## Key Results
-
-- **Highest ROC-AUC:** 99.58±0.01% (LSTM Autoencoder)
-- **Best Balance:** 99.44±0.03% ROC-AUC with 87s training (Standard Autoencoder)
-- **Smallest Model:** 36KB (Autoencoder)
-- **Fastest Training:** 0.4s (Isolation Forest, but only 92.96% ROC-AUC)
-
-Standard Autoencoder offers the best performance-efficiency trade-off for resource-constrained deployments.
-
 ## Repository Contents
-```
+~~~
 Scripts/
 ├── Autoencoder_CICIoT2023.py           # Autoencoder training pipeline
 ├── VAE_CICIoT2023.py                   # Variational Autoencoder training pipeline
@@ -43,7 +34,16 @@ Terminal_Logs/
 ├── One-Class Support Vector Machine Terminal Logs.txt         # One-Class Support Vector Machine training output
 ├── Isolation Forest Terminal Logs.txt                         # Isolation Forest training output
 └── Elliptic Envelope Terminal Logs.txt                        # Elliptic Envelope training output
-```
+~~~
+
+## Key Results
+
+- **Highest ROC-AUC:** 99.58±0.01% (LSTM Autoencoder)
+- **Best Balance:** 99.44±0.03% ROC-AUC with 87s training (Standard Autoencoder)
+- **Smallest Model:** 36KB (Autoencoder)
+- **Fastest Training:** 0.4s (Isolation Forest, but only 92.96% ROC-AUC)
+
+Standard Autoencoder offers the best performance-efficiency trade-off for resource-constrained deployments.
 
 ## Dataset
 
