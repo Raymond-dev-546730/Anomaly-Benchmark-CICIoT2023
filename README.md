@@ -7,7 +7,7 @@ This repository contains training scripts and terminal logs from:
 
 ## Overview
 
-We benchmark 10 anomaly detection models for IoT intrusion detection. All models trained on benign traffic only, tested on 33 unseen attack types. Hardware-controlled experiments measure both accuracy and computational cost.
+We benchmark 10 anomaly detection models for zero-day IoT intrusion detection across tree-based, kernel, probabilistic, neural, and hybrid paradigms. All models are trained exclusively on benign traffic and evaluated on 33 unseen attack types from the CICIoT2023 dataset containing 46.7 million network flows. Experiments are conducted on resource-constrained hardware simulating IoT gateway environments, measuring both detection performance and computational efficiency to identify practical deployment trade-offs.
 
 ## Key Results
 
