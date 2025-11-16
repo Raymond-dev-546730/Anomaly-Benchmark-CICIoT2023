@@ -49,14 +49,3 @@ Standard Autoencoder offers the best performance-efficiency trade-off for resour
 
 The CICIoT2023 dataset is available at: https://www.unb.ca/cic/datasets/iotdataset-2023.html
 
-## Citation
-
-If you use this code or reference our work, please cite:
-```bibtex
-@inproceedings{lee2025zeroday,
- title={Performance–Efficiency Trade-offs in Anomaly Detection Architectures for Zero-Day IoT Attack Detection: A Systematic Benchmark on CICIoT2023},
- author={Lee, Raymond and Zhang, Yunpeng},
- booktitle={Workshop on AI for Cyber Threat Intelligence (WAITI)},
- year={2025}
-}
-```
